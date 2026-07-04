@@ -57,7 +57,7 @@ while True:
         total=0
         for exp in expenses:
             total=total+exp["amount"]
-            print(f"Total spendings = {total}")
+        print(f"Total spendings = {total}")
     
     # Code block for exiting the program
     elif(choice==4):
