@@ -57,9 +57,9 @@ while True:
                 break
         
         if found_book:
-            print(f"{choice}. Title : {i["title"]}")
-            print(f"{choice}. Author : {i["author"]}")
-            print(f"{choice}. Book Id : {i["book_id"]}")
+            print(f"Title : {i["title"]}")
+            print(f"Author : {i["author"]}")
+            print(f"Book Id : {i["book_id"]}")
         else:
             print("Book not found")
     
